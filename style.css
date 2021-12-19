@@ -1,0 +1,49 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* Montserrat font */
+    margin: 0;
+    padding: 0;
+    background-color: #007bff;
+    /* Blue background */
+    color: white;
+    /* White text */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+.winking-face {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+    /* White text for heading */
+    margin-bottom: 10px;
+}
+
+p {
+    color: white;
+    /* White text for paragraph */
+}
+
+footer {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #0056b3;
+    /* Slightly darker blue */
+}
